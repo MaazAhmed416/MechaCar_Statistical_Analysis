@@ -1,7 +1,6 @@
 install.packages("dplyr")
 library(dplyr)
 table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
-lm(ground_clearance ~ vehicle_length + vehicle_weight + spoiler_angle + AWD + mpg,data=table) #generate multiple linear regression model)
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=table) #generate multiple linear regression model)
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=table)) #generate summary statistics
 table2 <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
