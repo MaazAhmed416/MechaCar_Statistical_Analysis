@@ -12,4 +12,15 @@ The current manufacturing data meets the design specification for all manufactur
 
 ![image](https://user-images.githubusercontent.com/76402559/114768384-c727c800-9d36-11eb-941d-c7155e0b1ba6.png)
 
-The manufacturing data meets the design specification for lots 1 and 2. The variances are well below 100 these lots. However, the Lot3 does not meet the specification and has a variance of 170.286 which is well above 100
+The manufacturing data meets the design specification for lots 1 and 2. The variances are well below 100 for these lots. However, Lot3 does not meet the specification and has a variance of 170.286 which is well above 100
+
+## T-Tests on Suspension Coils
+![image](https://user-images.githubusercontent.com/76402559/114770298-4b7b4a80-9d39-11eb-9a95-bf9e369f5a0f.png)
+
+![image](https://user-images.githubusercontent.com/76402559/114770377-60f07480-9d39-11eb-86f4-c13fe9192698.png)
+
+![image](https://user-images.githubusercontent.com/76402559/114770449-75cd0800-9d39-11eb-9dc0-48e91dd3f228.png)
+
+![image](https://user-images.githubusercontent.com/76402559/114770512-87aeab00-9d39-11eb-9e71-04770eb76d09.png)
+
+Collectively, the p value for the PSI is 0.06028 which is greater than the significance value of 0.05 and therefore we can conclude that it is not different from the mean population PSI results. Also, when looking looking at the data grouped by manufacturing lot, Lot 1 has a p value of 1 and Lot 2 has a p value of 0.6072 which means they are also not statistically different from the mean population PSI results. However, Lot 3 has a p value of 0.04168 which is below the significance value which tells us that it is statistically different from the mean population PSI results.
