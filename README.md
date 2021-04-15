@@ -24,3 +24,9 @@ The manufacturing data meets the design specification for lots 1 and 2. The vari
 ![image](https://user-images.githubusercontent.com/76402559/114770512-87aeab00-9d39-11eb-9e71-04770eb76d09.png)
 
 Collectively, the p value for the PSI is 0.06028 which is greater than the significance value of 0.05 and therefore we can conclude that it is not different from the mean population PSI results. Also, when looking at the data grouped by manufacturing lot, Lot 1 has a p value of 1 and Lot 2 has a p value of 0.6072 which means they are also not statistically different from the mean population PSI results. However, Lot 3 has a p value of 0.04168 which is below the significance value. This tells us that the suspension coil's PSI of Lot 3 is statistically different from the mean population PSI results.
+
+## Study Design: MechaCar vs Competition
+A statistical study of performance of MechaCar against the competition that is beneficial to the consumer is one for city fuel efficiency.
+  H0: The city fuel efficiency of MechaCar is not higher than the city fuel efficiency of the competitor
+  Ha: The city fuel efficiency of MechaCar is higher than the city fuel efficiency of the competitor
+To test the hypothesis, the statistical test we will use is the one sample t-Test. The one sample t-Test will help us test the mean of a sample distribution against the mean of the population distribution. For our one sample t-Test, we will test the mean of a sample of different fuel consumption numbers of a number of MechaCars against the mean of fuel consumption numbers of the competitors (population) to determine whether the city fuel efficiency of MechaCar is higher than the city fuel efficiency of the competitor.  
