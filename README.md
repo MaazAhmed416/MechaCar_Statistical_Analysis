@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/76402559/114760781-b32b9880-9d2d-11eb-8fa2-6d75152fd6c3.png)
 
 Vehicle_weight, spoiler_angle and AWD provided a non random-amount of variance to the mpg values in the dataset
-The slope of the linear is not considered zero. This is due to the fact that the p-value is 5.35e-11, which is lower than the significance level of 0.05
+The slope of the linear model is not considered zero. This is due to the fact that the p-value is 5.35e-11, which is lower than the significance level of 0.05
 The multiple R squared amount is 0.7149 which tells us that 71.49% of the time, the model predicts mpg of MechaCar prototypes effectively
 
 ## Summary Statistics on Suspension Coils
